@@ -212,6 +212,8 @@ namespace UnitTesting
         [InlineData(200, "CC")]
         [InlineData(1990,"MCMXC")]
         [InlineData(2008, "MMVIII")]
+        [InlineData(4944, "MMMMCMXLIV")]
+        [InlineData(4226, "MMMMCCVI")]
 
         public void RomanNumberTest(int x, string actual)
         {
