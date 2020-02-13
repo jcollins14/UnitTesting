@@ -17,16 +17,16 @@ namespace UnitTesting
                     input -= 1000;
                 }
             }
-            if (input >= 990)
-            {
-                output += "XM";
-                input -= 990;
-            }
-            if (input >= 950)
-            {
-                output += "LM";
-                input -= 950;
-            }
+            //if (input >= 990)
+            //{
+            //    output += "XM";
+            //    input -= 990;
+            //}
+            //if (input >= 950)
+            //{
+            //    output += "LM";
+            //    input -= 950;
+            //}
             if (input >= 900 )
             {
                 output += "CM";
@@ -40,16 +40,16 @@ namespace UnitTesting
                     input -= 500;
                 }
             }
-            if (input >= 490)
-            {
-                output += "XD";
-                input -= 490;
-            }
-            if (input >= 450)
-            {
-                output += "LD";
-                input -= 450;
-            }
+            //if (input >= 490)
+            //{
+            //    output += "XD";
+            //    input -= 490;
+            //}
+            //if (input >= 450)
+            //{
+            //    output += "LD";
+            //    input -= 450;
+            //}
             if (input >= 400)
             {
                 output += "CD";
